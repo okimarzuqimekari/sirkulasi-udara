@@ -27,6 +27,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Snyk
+        env:
+          SNYK_TOKEN: ${{SNYK_TOKEN}}
         uses: snyk/actions@0.3.0
         with:
-          command: SNYK_TOKEN=$SNYK_TOKEN auth
+          command: auth
