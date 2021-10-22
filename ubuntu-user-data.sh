@@ -39,7 +39,7 @@ users:
     - gh:GITHUB-USERNAME
 
 # Example runcmd
-runcmd:
+#runcmd:
 #  - curl -so FILE.deb https://EXAMPLE.COM/FILE.deb && dpkg -i ./FILE.deb
 #  - apt-get install FILE
 #  - systemctl enable FILE --now
